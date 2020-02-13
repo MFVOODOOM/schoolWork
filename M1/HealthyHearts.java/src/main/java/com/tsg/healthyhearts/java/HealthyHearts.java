@@ -4,32 +4,24 @@
  * and open the template in the editor.
  */
 package com.tsg.healthyhearts.java;
-import java.util.Scanner;
 
-/**
- *
- * @author user
- */
 public class HealthyHearts {
     public static void main(String[] args) {
-        String age;
-        Scanner life = new Scanner(System.in);
-        int maxHR;
-        float targetHRZmin;
-        float targetHRZmax;
+        View myView = new View();
         
-        System.out.println("What is your age?");
-        age = life.nextLine();
+        Person person = new Person();
         
-        int i = Integer.parseInt(age);
+        person.setAge(myView.readInt("What is your age?"));
+                
+        person.setMaxHR(person.getAge());
         
-        maxHR = 220 - i;
+       // person.setTargetHRZMin(person.getMaxHR());
         
-        targetHRZmin = (50 * maxHR)/ 100;
-        targetHRZmax = (85 * maxHR)/ 100;
-        
-               System.out.println("Your maximum heart rate should be " + maxHR + " beats per minute.");
+       // person.setTargetHRZMax(person.getMaxHR());
+       
+ 
+        myView.print("Your maximum heart rate should be " + person.getMaxHR() + " beats per minute.");
 
-        System.out.println("Your target HR Zone is " + targetHRZmin + " - " + targetHRZmax + " beats per minute");
+        myView.print("Your target HR Zone is " + person.getTargetHRZMin() + " - " + person.getTargetHRZMax() + " beats per minute.");
     }
 }

@@ -1,0 +1,20 @@
+A1::Twizzlers::1.25::15
+A2::Sour Power Straws::1.25::10
+A3::Starburst::1.25::15
+A4::Skittles::1.25::15
+A5::Haribo Gummy Bears::1.50::15
+B1::Twix::1.50::10
+B2::Snickers::1.50::10
+B3::Reese's Pieces::1.25::10
+B4::Kit-Kat::1.25::10
+B5::Butterfinger::1.50::10
+C1::Doritos Nacho Chips::1.00::10
+C2::Doritos Cool Ranch Chips::1.00::10
+C3::Doritios Sweet & Spicy Chilli Chip::1.00::10
+C4::Sweet Plantain Chips::1.50::15
+C5::Utz Honey Butter Chips::0.50::20
+D1::Poland Spring Water Bottle::1.00::25
+D2::Fanta Orange Soda::2.00::20
+D3::Fanta Pineapple Soda::2.00::20
+D4::Fanta Peach Soda::2.00::20
+D5::Schweppes Original Seltzer::1.50::20
